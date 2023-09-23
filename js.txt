@@ -1,0 +1,37 @@
+if(e.target.classList[0]=='edit'){
+        let list3=e.target.parentElement.parentElement.childNodes[1];
+        let selectedli=e.target.parentElement.parentElement.parentElement;
+        
+        input.value=list3.innerText;
+        // console.log(list3);
+        addBtn.style.display="none"
+        editBtn.style.display="block";
+        editBtn.addEventListener('click',()=>{
+            let list4=e.target.parentElement.parentElement.parentElement;
+            selectedli.classList.add('libackground');
+            li.forEach((itm)=>{
+                console.log(itm);
+            });
+                if(list4.classList[1]=='libackground'){
+                    if(input.value!=''){
+                        list3.innerHTML=input.value;
+                        addBtn.style.display="block"
+                        editBtn.style.display="none";
+                        selectedli.classList.remove('libackground');
+                        input.value=""
+                    
+                
+                             
+            
+        }
+        }
+            // console.log(list4);
+            
+            
+        })
+    }
+}); 
+    //         list4=e.target.parentElement.parentElement.childNodes[3];
+    //         list4.innerText=list3.innerText;
+    //     })
+        

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+:root{
+    --bg-color:#191825;
+    --color:#fff;
+}
+body{
+    background:var(--bg-color);
+    color:var(--color);
+}
+.section1{
+    /* position: absolute; */
+    /* background-color:yellow; */
+    text-align: center;
+margin-top:30px;
+}
+.section1 p{
+    font-weight: bold;
+    font-size:50px;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top:10px;
+    padding:10px;
+}
+.input input{
+    padding:10px;
+    width:75%;
+    color:var(--color);
+    font-size:25px;
+    border-radius:10px;
+    border:0.5px solid #fff;
+    outline:none;
+    background:transparent;
+             
+
+}
+.input .btn{
+padding:10px;
+margin:5px;
+font-size:20px;
+border-radius:10px;
+outline:none;
+border:none;
+transition:0.2s;
+}
+.input .btn:hover{
+    opacity:0.7;
+    
+}
+.section2{
+    margin-top:12px;
+}
+
+.ul1{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin-left:10%;
+/* background-color: bisque; */
+}
+.ul1 li{
+    list-style: none;
+    border:1px solid rgba(255,255,255,0.5);
+    margin:10px;
+    padding:10px 20px;
+    border-radius:10px;
+width:100%;
+transition: 0.5s;
+}
+.list-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.list-item button{
+    padding:10px;
+}
+.del{
+    margin-left:12px;
+    background-color: rgba(255, 0, 0, 0.651);
+    color:var(--color);
+    border:0;
+    outline: none;
+    transition: 0.2s;
+}
+.del:hover{
+opacity: 0.5;
+}
+.edit{
+    transition: 0.2s;
+
+}
+.edit:hover{
+    opacity:0.5;
+}
+.format{
+    margin-left: auto;
+}
+.list-item p{
+    margin-left:30px;
+    font-size:20px;
+    /* text-decoration: line-through; */
+}
+input[type="checkbox"]{
+    width:25px;
+    height:25px;
+}
+.lineThrough{
+    text-decoration: line-through;
+}
+.libackground{
+    transition:0.7s;
+background-color: #fff;
+color:#191825;
+}
+.editbuttn{
+    display: none;
+}
+.v{
+    /* margin-left:100px; */
+}
+img{
+    width:30px;
+    height:30px;
+}
+.do{
+    color:yellow
+}

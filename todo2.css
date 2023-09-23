@@ -1,0 +1,55 @@
+@media only screen and (max-width:700px){
+    
+    .input input{
+    width:65%;
+    font-size:16px;
+    padding:5px;
+    border-radius:5px;
+    }
+.input .btn{
+padding:5px;
+margin:5px;
+font-size:15px;
+border-radius:5px;
+
+}
+.section1 p{
+    font-size:35px;
+}
+.ul1{
+    width:80%;
+    margin-left:32px;
+}
+.ul1 li{
+    margin:10px;
+    padding:5 10px;
+
+}
+.list-item{
+    /* align-items: flex-start; */
+}
+.list-item p{
+    font-size:12px;
+    margin-left:10px;
+
+}
+.list-item button{
+    padding:2px;
+    width:35px;
+    /* border-radius: 5px;; */
+    height:30px;
+}
+input[type="checkbox"]{
+    width:15px;
+    height:15px;
+}
+.format{
+    /* margin-top:35px;
+    margin-left:-80px */
+}
+.v{
+    margin-left:70px;
+}
+}
+/* animate__animated animate__fadeOutUp */
+
