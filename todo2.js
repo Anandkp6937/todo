@@ -61,7 +61,6 @@ addBtn.addEventListener('click',(e)=>{
     li.classList.add('animate__animated');
     li.classList.add('animate__fadeInDown');
     ul.appendChild(li);
-    localStorage.setItem(id,input.value)
     input.value=""
     const checkboxI=document.querySelector('input[name="checkBox"]');
     //task complete
