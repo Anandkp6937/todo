@@ -18,13 +18,13 @@
             "type":"image/png"
         },
         {
-            "src":"pic.png",
+            "src":"picx1.png",
             "sizes":"144X144",
             "type":"image/png"
 
         },
         {
-            "src":"pic2.png",
+            "src":"picx.png",
             "sizes":"512X512",
             "type":"image/png"
             
