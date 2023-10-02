@@ -18,6 +18,12 @@
             "sizes":"64X64",
             "type":"image/png",
             "purpose": "maskable"
+        },
+        {
+            "src":"pic.png",
+            "sizes":"144X144",
+            "type":"image/png",
+            "purpose": "maskable"
         }
     ]
 }
