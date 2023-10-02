@@ -1,0 +1,21 @@
+{
+    "name":"Sawtodo",
+    "short_name":"ToDo",
+    "start_url":".",
+    "background_color":"#191825",
+    "theme_color":"#191825",
+    "display":"standalone",
+    "icons":[
+        {
+            "src":"sixty4.png",
+            "sizes":"64x64",
+            "type":"image/png"
+
+        },
+        {
+            "src":"five12.png",
+            "sizes":"64X64",
+            "type":"image/png"
+        }
+    ]
+}

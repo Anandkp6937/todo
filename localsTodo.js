@@ -162,6 +162,10 @@ function todoEdit(){
                         alert("Nothing to Edit");
                         makeEditBtn.style.display="none";
                         addBtn.style.display="block";
+                        todoLi[i].class=false;
+                        localStorage.setItem('todoList',JSON.stringify(todoLi));
+                        makeTodo();
+                        flag=0;
                     }   
                 }
         })
