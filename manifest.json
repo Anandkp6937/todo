@@ -9,21 +9,26 @@
         {
             "src":"sixty4.png",
             "sizes":"64x64",
-            "type":"image/png",
-            "purpose": "maskable"
+            "type":"image/png"
 
         },
         {
             "src":"five12.png",
             "sizes":"64X64",
-            "type":"image/png",
-            "purpose": "maskable"
+            "type":"image/png"
         },
         {
             "src":"pic.png",
             "sizes":"144X144",
-            "type":"image/png",
-            "purpose": "maskable"
+            "type":"image/png"
+
+        },
+        {
+            "src":"pic2.png",
+            "sizes":"512X512",
+            "type":"image/png"
+            
         }
+
     ]
 }
