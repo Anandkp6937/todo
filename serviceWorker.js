@@ -1,7 +1,6 @@
 self.addEventListener('install',(e)=>{
     console.log("service worker intialised");
-    e.waitUntill(
-caches.open("stationary").then(cache=>{
+    e.waitUntill(caches.open("stationary").then(cache=>{
     return cache.addAll(["./index.html","./todo1.css","./todo2.css","./sixty4.png","./five12.png","./pic.png"]);
 })
     )

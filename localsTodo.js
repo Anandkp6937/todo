@@ -8,9 +8,7 @@ var id=0;
 // var tesAr=[{id:0,todoContent:"todo1",status:false,class:false}];
 // localStorage.setItem("todoList",JSON.stringify(tesAr));
 var todoLi=localStorage.getItem("todoList")?
-JSON.parse(localStorage.getItem("todoList"))
-:[];
-console.log(todoLi);
+JSON.parse(localStorage.getItem("todoList")):[];
 //making a todo
 function makeTodo(){
     if(todoLi.length!=0){
@@ -76,6 +74,12 @@ function makeTodo(){
         </li> `
     }
 }
+input.addEventListener('keydown',(e)=>{
+if(e.keyCode===13){
+    addBtn.click();
+}
+})
+
 //identifying the delete button of list
 function todoDel(){
 let delbtn=document.querySelectorAll('.del');
@@ -119,6 +123,7 @@ else{
     alert("No todo to add");
 }
 })
+
 makeTodo()
 
 //identifying edit btn
